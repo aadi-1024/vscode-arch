@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=Visual Studio Code
+Type=Application
+Terminal=false
+Icon=code
+Exec=/usr/share/VSCode/code
+Categories=Programming;Development;
