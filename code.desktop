@@ -2,8 +2,8 @@
 Name=Visual Studio Code
 Comment=Code Editing. Redefined.
 GenericName=Text Editor
-Exec=/usr/share/code/code --unity-launch %F
-Icon=vscode
+Exec=env GTK_USE_PORTAL=1 /usr/share/VSCode/code --unity-launch %F
+Icon=code
 Type=Application
 StartupNotify=false
 StartupWMClass=Code
@@ -14,5 +14,5 @@ Keywords=vscode;
 
 [Desktop Action new-empty-window]
 Name=New Empty Window
-Exec=/usr/share/code/code --new-window %F
+Exec=/usr/share/VSCode/code --new-window %F
 Icon=vscode
