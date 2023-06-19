@@ -11,3 +11,5 @@ wget -nv https://github.com/aadi-1024/vscode-arch/blob/master/vscode.png?raw=tru
 sudo mv vscode.png?raw=true /usr/share/pixmaps/code.png
 wget -nv https://raw.githubusercontent.com/aadi-1024/vscode-arch/master/code.desktop
 sudo mv code.desktop /usr/share/applications
+cd ..
+rm -rf temp
